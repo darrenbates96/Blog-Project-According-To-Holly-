@@ -1,0 +1,72 @@
+/* Universal */
+html, body {
+    /* background-image: linear-gradient(to top right, #ffc6b3, white); */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* This is bad, try find solution */
+}
+
+a {
+    text-decoration: none;
+}
+  
+/* According to Holly */
+#theblog {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 30px;
+      margin-bottom: 5px;
+}
+    
+#theblog img {
+      display: block;
+      width: 21%;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+/* Navigation bar (tow & poetry) */
+
+#theblognav {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+      
+#theblognav li {
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 16px;
+        letter-spacing: 2px;
+}
+      
+#theblognav li:hover {
+        background-color:  #ffc6b3; 
+        color: white;
+        transition: background-color 1s ease;
+}
+
+#theblognav a {
+    text-decoration: none;
+    color: black;
+}
+
+ #theblognav a.active {
+        background-color:  #ffc6b3; 
+        color: white;
+        margin: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+}

@@ -1,0 +1,18 @@
+<div id = "theblog">
+    <img src = "../../assets/media/theblog.JPG" alt = "The Blog" />
+</div>
+
+<div>
+    <ul id = "theblognav">
+        <a [routerLink] = "[{outlets: {blognav: ['themes']}}]" routerLinkActive = "active"><li>THEMES OF THE WEEK</li></a>
+        <a [routerLink] = "[{outlets: {blognav: ['poetry']}}]" routerLinkActive = "active"><li>POETRY</li></a>
+    </ul>
+    <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type = "text/javascript">
+        $(document).on('click', 'ul li', function(){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+</div>
+<br><br>
+<router-outlet name = "blognav"></router-outlet>
