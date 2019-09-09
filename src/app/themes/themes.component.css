@@ -1,0 +1,20 @@
+#cards_div {
+    background-color: pink;
+    margin-top: 8px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+  
+#container {
+    background-color: white;
+    width: 46%;
+    height: 200px;
+    margin: 1%;
+    float: left;
+}
+
+#container:hover {
+    background-color: black;
+}
