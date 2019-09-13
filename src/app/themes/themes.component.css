@@ -1,20 +1,47 @@
+/* Universal */
+html, body {
+    /* background-image: linear-gradient(to top right, #ffc6b3, white); */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* This is bad, try find solution */
+}
+
+/* The Cards */
+
 #cards_div {
-    background-color: pink;
-    margin-top: 8px;
-    padding-top: 4px;
+    width: 100%;
+    margin-top: 0;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
 }
   
-#container {
+#container_col1 {
+    background-color:white;
+    border-style: solid;
+    border-color: #ffc6b3;
+    width: 49%;
+    margin-bottom: 0.5%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+    height: 250px;
+    float: left;
+}
+
+#container_col2 {
     background-color: white;
-    width: 46%;
-    height: 200px;
-    margin: 1%;
+    border-style: solid;
+    border-color: #ffc6b3;
+    width: 49%;
+    margin-bottom: 0.5%;
+    margin-left: 0.25%;
+    height: 250px;
     float: left;
 }
 
 #container:hover {
     background-color: black;
 }
+
